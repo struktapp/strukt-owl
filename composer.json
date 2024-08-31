@@ -1,0 +1,11 @@
+{
+    "require": {
+        "davmixcool/php-sentiment-analyzer": "^1.2",
+        "php-science/textrank": "^1.2",
+        "strukt/commons": "dev-master"
+    },
+    "autoload":{
+        "files":["src/helpers.php"]
+    },
+    "minimum-stability":"dev"
+}
