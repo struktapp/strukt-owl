@@ -5,7 +5,9 @@ AI package. Mostly text analysis. More to come...
 
 <!-- ![Won](owl.jpg "Owl") -->
 
-<img src="owl.jpg" width="400" height="400">
+<center><img src="owl.jpg" width="200" height="100"></center>
+
+# Usage
 
 ## Sentiment Analysis: Vader Score
 
@@ -15,7 +17,7 @@ $text = "From Oasis' first ever single to the name of Noel and Liam's long-suffe
 probe($text);
 ```
 
-## Get Top 10 tags
+## Tags: Ranking
 
 ```php
 
