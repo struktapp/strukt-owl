@@ -1,4 +1,14 @@
 {
+    "name": "strukt/owl",
+    "description": "AI stuff",
+    "license": "MIT",
+    "authors": [
+
+        {
+            "name": "Samuel Weru",
+            "email": "pitsolu@gmail.com"
+        }
+    ],
     "require": {
         "davmixcool/php-sentiment-analyzer": "^1.2",
         "php-science/textrank": "^1.2",
