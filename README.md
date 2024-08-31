@@ -5,7 +5,7 @@ AI package. Mostly text analysis. More to come...
 
 <!-- ![Won](owl.jpg "Owl") -->
 
-<center><img src="owl.jpg" width="200" height="100"></center>
+<center><img src="owl.jpg" width="200" height="200"></center>
 
 # Usage
 
