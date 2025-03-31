@@ -7,9 +7,9 @@ AI package. Mostly text analysis. More to come...
 
 <center><img src="owl.jpg" width="200" height="200"></center>
 
-# Usage
+## Usage
 
-## Sentiment Analysis: Vader Score
+### Sentiment Analysis: Vader Score
 
 ```php
 $text = "From Oasis' first ever single to the name of Noel and Liam's long-suffering mother, just how well do YOU know the band? Take MailOnline's ultimate quiz";
@@ -17,7 +17,7 @@ $text = "From Oasis' first ever single to the name of Noel and Liam's long-suffe
 probe($text);
 ```
 
-## Tags: Ranking
+### Tags: Ranking
 
 ```php
 
@@ -28,7 +28,7 @@ tags($text); //get all tags
 arr(tags($text))->each(fn($k,$v)=>number($v)->gt(0.9)?$k:null)->filter()->values()->yield()
 ```
 
-## Summarize
+### Summarize
 
 ```php
 $text = fs()->cat("news.txt");
@@ -36,7 +36,7 @@ $text = fs()->cat("news.txt");
 summary($text);
 ```
 
-## Highlights
+### Highlights
 
 ```php
 $text = fs()->cat("news.txt");
@@ -44,7 +44,7 @@ $text = fs()->cat("news.txt");
 highlights($text);
 ```
 
-# Credits
+## Credits
 
 - TextRank https://github.com/davmixcool/php-sentiment-analyzer
 - PHP Sentiment Analyzer https://github.com/DavidBelicza/PHP-Science-TextRank
