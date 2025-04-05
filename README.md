@@ -46,6 +46,7 @@ highlights($text);
 
 ## Credits
 
+~~~
 - TextRank https://github.com/davmixcool/php-sentiment-analyzer
 - PHP Sentiment Analyzer https://github.com/DavidBelicza/PHP-Science-TextRank
-
+~~~
