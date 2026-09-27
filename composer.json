@@ -25,7 +25,7 @@
             "Tests\\": "tests/"
         }
     },
-    "bin": ["bin/php-ai"],
+    "bin": ["bin/owl"],
     "scripts":
     {
         "test": "phpunit",

@@ -41,13 +41,13 @@ Every command supports `--json` where applicable.
 ```bash
 /bin/owl sentiment "This product is absolutely fantastic!"
 /bin/owl emotion "I am so happy that we finally won!"
-/bin/owl keywords article.txt --limit=10
-/bin/owl summarize article.txt --sentences=5
+cat article.txt | /bin/owl keywords --limit=10
+cat article.txt | /bin/owl summarize --sentences=5
 /bin/owl language "Habari ya asubuhi, uko aje?"
 /bin/owl similarity "Kenya Airways" "Kenya Airways Limited"
 /bin/owl match "Kenya Airways Ltd" "Kenya Airways" "Kenya Power" "Safaricom"
-/bin/owl readability article.txt
-/bin/owl anomaly values.txt --method=zscore
+cat article.txt | /bin/owl readability 
+cat values.txt | /bin/owl anomaly --method=zscore
 ```
 
 ### Classifier
