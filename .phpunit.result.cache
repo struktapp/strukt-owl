@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\SmokeTest::testPositiveSentiment":8,"Tests\\SmokeTest::testCosineIdentity":8},"times":{"PhpAi\\Tests\\SmokeTest::testPositiveSentiment":0.001,"PhpAi\\Tests\\SmokeTest::testCosineIdentity":0.001,"Tests\\SmokeTest::testPositiveSentiment":0.003,"Tests\\SmokeTest::testCosineIdentity":0.002}}

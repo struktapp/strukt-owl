@@ -1,0 +1,34 @@
+{
+    "name": "strukt/owl",
+    "description": "Self-contained, explainable AI and NLP utilities for PHP with a CLI.",
+    "type": "library",
+    "license": "MIT",
+    "require":
+    {
+        "php": ">=8.2"
+    },
+    "require-dev":
+    {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Strukt\\": "src/Strukt"
+        }
+    },
+    "autoload-dev":
+    {
+        "psr-4":
+        {
+            "Tests\\": "tests/"
+        }
+    },
+    "bin": ["bin/php-ai"],
+    "scripts":
+    {
+        "test": "phpunit",
+        "lint": "find src bin tests -name '*.php' -print0 | xargs -0 -n1 php -l"
+    }
+}
