@@ -4,6 +4,8 @@ Strukt Owl
 Self-contained, explainable AI/NLP utilities for PHP 8.2+, built on the
 [Strukt Math](../math) primitives.
 
+<center><img src="owl.jpg" width="200" height="200"></center>
+
 No API keys, network services, Python, model server, or database are required.
 
 ## Install
