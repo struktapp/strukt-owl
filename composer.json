@@ -6,7 +6,7 @@
     "require": {
         "php": ">=8.2",
         "strukt/console": "v2.0.0",
-        "strukt/math": "v1.0.0"
+        "strukt/math": "v1.2.0"
     },
     "require-dev": {
         "pestphp/pest": "^4.0"
